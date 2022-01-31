@@ -19,7 +19,7 @@ const replaceVal = (tempVal, orgVal) => {
 const server = http.createServer((req, res) => {
     if (req.url == "/") {
         requests(
-                'https://api.openweathermap.org/data/2.5/weather?q=Assam&appid=a9b1aba60aa2b98f0a0e3db0ce1b734b')
+                "add your api")
             .on('data', (chunk) => {
 
                 const objdata = JSON.parse(chunk);
